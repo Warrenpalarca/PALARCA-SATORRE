@@ -1,0 +1,127 @@
+/* General styles */
+.App {
+  display: flex;
+  flex-direction: column; /* Changed flex direction to column */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-image: url('TESTIMAGE.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Action Panels */
+.actionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  order: 2; /* Changed order to 2 */
+}
+
+.actionPanel {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px; /* Added margin-bottom */
+}
+
+.actionTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.actionButton {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 500px;
+}
+
+/* List */
+.listContainer {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  order: 1; /* Changed order to 1 */
+  margin-bottom: 20px; /* Added margin-bottom */
+  width: 95%; /* Set width to 100% */ 
+}
+
+.listTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.taskTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.taskTable th,
+.taskTable td {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+/* Option Buttons */
+.optionButtondelete {
+  background-color: red;
+  color: #fff;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.optionButton {
+  background-color: green;
+  color: #fff;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 4px;
+}
+
+/* Input */
+.inputField {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 90%;
+  max-width: 400px; /* Adjust the width as per your preference */
+}
+
+.addUpdateText {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#hidelist {
+  background-color: #2196f3;
+}
